@@ -1,7 +1,7 @@
 fun main() {
-    val input: IntArray = intArrayOf(-3, -1, -7, 4, 2, 0)
+    val input: IntArray = intArrayOf(5, 3, 4, 1, 2)
 
-    mergeSort(input)
+    insertionSort(input)
 
     println(input.joinToString())
 }
