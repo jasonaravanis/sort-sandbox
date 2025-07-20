@@ -18,6 +18,8 @@ Which reduces to O(n^2)
 
 when array is already sorted, we loop over the array a single time
 
+This sort algorithm might be a good choice if we expect the data is already mostly sorted
+
 ## Average case: O(n^2)
 
 We need to loop over every element in the array
